@@ -1,0 +1,26 @@
+/* 
+ * -----------------------------
+ *  Resets and overides
+ * -----------------------------
+*/
+
+* { margin: 0; padding: 0; }
+
+html { overflow-y: scroll; -webkit-text-size-adjust:none; }
+
+img { border: none; }
+
+ol, ul { list-style: none; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+input[type="submit"], button::-moz-focus-inner { 
+	border: 0;
+	padding: 0;
+}
+
+::selection { background: #323a3d; color: #ededed; } /* Safari and Opera */
+::-moz-selection { background: #323a3d; color: #ededed; } /* Firefox */

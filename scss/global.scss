@@ -1,0 +1,96 @@
+/* 
+ * -----------------------------
+ *  Orange Digital Test
+ *  (c) Orange Digital
+ *	Author: Phil Baker
+ *
+ *  SWATCH
+ *  14417A - blue
+ *  CB054B - magenta
+ *  EFE7D4 - cream
+ *  333333 - dark grey
+ * -----------------------------
+*/
+@import 'includes/vars';
+@import 'includes/mixins';
+@import 'includes/fonts';
+@import 'includes/reset';
+
+
+/* 
+ * -----------------------------
+ *  General styles
+ * -----------------------------
+*/
+body { 
+	background: #fff;
+	color: #333;
+	font-family: tahoma, arial, helvetica, verdana, sans-serif;
+	font-size: 62.5%;
+}
+
+a:link, a:visited, a:hover, a:active { color: #f1684e;}
+a:hover { color: #fff; background: #1b1b1b;}
+a.btDefault {}
+
+h1, h2, h3, h4, h5, h6, cite { font-family: 'BebasNeueRegular', verdana, tahoma, arial, sans-serif; line-height: 1em; font-weight: normal;}
+
+h1 {}
+
+h2 {}
+
+p { font-size: 1.3em; margin: 0 0 1em 0;}
+
+
+/* 
+ * -----------------------------
+ *  Generic layout
+ * -----------------------------
+*/
+#wrapper {}
+
+
+
+
+
+/* 
+ * -----------------------------
+ *  Boilerplate & footer
+ * -----------------------------
+*/
+footer {}
+
+#boilerplate {}
+
+
+/* 
+ * -----------------------------
+ *  Callout boxes
+ * -----------------------------
+*/
+.infoBox {}
+
+/* 
+ * -----------------------------
+ *  Form elements
+ * -----------------------------
+*/
+select, input, textarea { 
+	font-family: arial, helvetica, verdana, tahoma, sans-serif;
+	font-size: 1.2em;
+}
+
+label, input, select, textarea { cursor: pointer; }
+fieldset { border: none; }
+legend { display: none; }
+
+
+/* 
+ * -----------------------------
+ *  Media queries
+ * -----------------------------
+*/
+@media screen and (min-width: 500px){
+	
+	
+}

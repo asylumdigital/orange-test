@@ -116,6 +116,10 @@
 	.caption {
 		width: 100%;
 		max-width: 480px;
+
+		span {
+			display: inline;
+		}
 	}
 	
 }

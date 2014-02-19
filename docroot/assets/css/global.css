@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* 
  * -----------------------------
  *  Orange Digital Test
@@ -341,7 +340,7 @@ legend {
  *  Media queries
  * -----------------------------
 */
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 480px) {
   .inner-wrapper {
     max-width: 960px;
   }

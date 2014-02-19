@@ -26,5 +26,32 @@
 	.caption {
 		max-width: 50%;
 	}
+
+	.col-3 {
+		background: url(/assets/img/layout/line-full.gif) center bottom no-repeat;
+		display: table;
+		margin: 0 auto 50px;
+		max-width: 960px;
+		width: 100%;
+
+		h3 { font-size: 1.4em; }
+
+		.col {
+			display: table-cell;
+			max-width: 300px;
+			width: 33.33%;
+
+			img {
+				max-width: 460px;
+				width: 100%;
+
+			}
+		}
+	}
+
+	.caption {
+		width: 100%;
+		max-width: 480px;
+	}
 	
 }

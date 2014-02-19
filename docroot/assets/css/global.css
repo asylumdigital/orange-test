@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* 
  * -----------------------------
  *  Orange Digital Test
@@ -302,6 +303,9 @@ p {
   text-transform: uppercase;
   text-align: left;
 }
+.caption span {
+  display: none;
+}
 
 /* 
  * -----------------------------
@@ -489,6 +493,9 @@ legend {
   .caption {
     width: 100%;
     max-width: 480px;
+  }
+  .caption span {
+    display: inline;
   }
 }
 @media screen and (min-width: 960px) {

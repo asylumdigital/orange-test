@@ -1,0 +1,134 @@
+@media screen and (min-width: 850px){
+	
+	#global-header {
+		background: transparent;
+		padding: 50px 0 0 0;
+	}
+
+	h1 {
+
+		margin: 0 0 50px;
+
+		a {
+			display: block;
+			width: 311px;
+			height: 103px;
+			background: url(/assets/img/layout/logo-large.png) 0 0 no-repeat;
+			text-indent: -999999em;
+		}
+
+	}
+
+	h2 {
+
+		font-size: 3em;
+
+		&:before {
+			content: url(/assets/img/layout/header-decoration-large.png);
+			margin: -4px 10px 0 0;
+			
+		}
+		&:after {
+			content: url(/assets/img/layout/header-decoration-right-large.png);
+			margin: -4px 0 0 10px;
+			
+		}
+
+	}
+
+	
+
+	#menu-toggle { display: none; }
+
+	#global-nav ul {
+		position: relative;
+		left: auto;
+		margin: 0 0 20px 0;
+		background: transparent;
+		width: 100%;
+		top: 0;
+		left: 0;
+		z-index: 9999;
+		float: left;
+		
+		li {
+			border: none;
+			display: block;
+			font-size: 1.4em;
+			line-height: 1.4em;
+			float: left;
+			text-transform: uppercase;
+			position: relative;
+			margin: 0;
+			padding: 0 0 0 0;
+			border-left: 1px solid $color1;
+			a {
+				color: #454545;
+				padding: 0 0 0 0;			
+				padding: 0 11px;
+				-webkit-transition: all 0.3s ease;
+				-moz-transition: all 0.3s ease;
+				-o-transition: all 0.3s ease;
+				-ms-transition: all 0.3s ease;
+				transition: all 0.3s ease;
+				&:hover {
+					color: $color1;
+				}
+
+				&:after {
+					content: '';
+				}
+			}
+
+			&:first-child {
+				border: none;
+
+				a {
+					padding-left: 0;
+				}
+			}
+
+			&.nav-about {
+				float: right;
+				border: none;
+				
+				a {
+					color: #6a8f56;
+					padding: 0;
+				}
+			}
+		}
+	}
+
+	#weekly-offers {
+		.inner-wrapper {
+			background: url(/assets/img/layout/line-full.gif) center top no-repeat;
+			padding-top: 40px;
+		}
+	}
+	.col-3 {
+		background: url(/assets/img/layout/line-full.gif) center bottom no-repeat;
+		display: table;
+		margin: 0 auto 50px;
+		max-width: 960px;
+		width: 100%;
+
+		.col {
+			display: table-cell;
+			max-width: 300px;
+			width: 33.33%;
+
+			img {
+				max-width: 460px;
+				width: 100%;
+
+			}
+		}
+	}
+
+	.caption {
+		width: 100%;
+		max-width: 480px;
+	}
+	
+}

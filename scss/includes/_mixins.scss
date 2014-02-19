@@ -1,0 +1,6 @@
+@mixin header-style($size, $weight: normal) {
+	font-size: $size;
+	font-weight: $weight;
+	text-transform: uppercase;
+}
+
